@@ -1,0 +1,72 @@
+#profil-dokter{
+	display: flex;
+  margin: 10px;
+}
+
+.card-text{
+  font-size: 16px;
+}
+
+#profil-dokter > .profil-dokter-img{
+	margin-right: 15px;
+	float: left;
+}
+
+.detail-dokter {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.tombol-chat {
+  text-align: end;
+  padding: 10px;
+}
+
+.tombol-chat a{
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.detail-dokter h6 {
+  margin-top: 12px;
+}
+
+.tentang-dokter, .buat-janji {
+  padding: 10px;
+}
+
+.tentang-dokter h1, .buat-janji h1{
+  font-size: 24px;
+  text-align: start;
+}
+
+.kotak-putih{
+  border: 1px solid rgb(225,225,225);
+  background-color: white !important;
+  box-shadow: 0.1rem 0.1rem 0.2rem rgb(0 0 0 / 10%);
+  margin-bottom: 15px !important;
+  border-radius: 4px;
+}
+
+.tanggal, .waktu {
+  display: flex;
+}
+
+.tanggal input , .waktu button{
+  margin: 10px 10px 10px 0;
+}
+
+.title {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.row {
+  justify-content: space-between;
+}
+
+.row h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 0 10px 0;
+}

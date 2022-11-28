@@ -1,0 +1,50 @@
+.artikel {
+  margin: 50px 0;
+  border-bottom: 1px solid rgb(215, 215, 215);
+
+}
+
+.gambar img {
+  border-radius: 10px;
+  width: 40rem;
+}
+
+.gambar {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.judul{
+  text-align: center;
+  margin: 50px 0 30px 0;
+}
+
+.tanggal-terbit {
+  position: relative;
+  display: block;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.tanggal-terbit:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  height: 1px;
+  width: 10%;
+  background: rgba(0, 198, 168, 0.992);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.isi {
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.referensi {
+  margin-bottom: 100px;
+}
