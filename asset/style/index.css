@@ -314,3 +314,11 @@ background-color: white;
   color: rgb(0, 0, 0);
   font-size: 20px;
  }
+
+ .tentang-kami {
+  justify-content: start;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-size: 18px;
+  padding-right: 15px;
+ }
