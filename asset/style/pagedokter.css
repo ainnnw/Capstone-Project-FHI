@@ -1,0 +1,15 @@
+.col-lg-2 h2{
+ font-size: 20px;
+}
+.col-lg-2 h3{
+    font-size: 15px;
+    background-color: aquamarine;
+    padding: 2px;
+    border-radius: 5%;
+   }
+.col-lg-2 p{
+    font-size: 12px;
+}
+.col-lg-2 i{
+    font-size: 20px;
+   }
