@@ -1,28 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>profil-dokter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artikel Page</title>
   <!--style-->
   <link href="../asset/style/index.css" rel="stylesheet">
+  <link href="../asset/style/pagedokter.css" rel="stylesheet">
   <link href="../asset/style/responsive.css" rel="stylesheet">
-  <link rel="stylesheet" href="../asset/style/profil-dokter.css">
+  <link href="../asset/style/artikel.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-  <script>
-    $(function () {
-      $("#datepicker").datepicker();
-    });
-  </script>
   <!--font-->
   <link
     href="https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Kanit&family=Nerko+One&family=Righteous&family=Secular+One&display=swap"
@@ -34,9 +25,8 @@
 <body>
   <nav class="navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html">
-        <img src="../asset/img/logo.png" alt="Logo" width="60" height="60"
-          class="d-inline-block align-text-center mb-2">
+      <a class="navbar-brand" href="#">
+        <img src="../asset/img/logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-center mb-2">
         <span>Family Healting Information </span>
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -90,107 +80,100 @@
   </div>
 
   <main>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 col-12 card mb-3 mt-5">
-          <div id="profil-dokter">
-            <div class="profil-dokter-img p-lg-3">
-              <img src="../asset/img/dr-achmad.jpg" alt="my-profile" class="card-img">
-            </div>
-            <div class="detail-dokter" style="width: 100%;">
-              <h3>dr. Achmad Mediana, Sp.OG</h3>
-              <h6 class="card-text">Dokter Spesialis Kandungan</h6>
-              <h6 class="card-text me-2">5 Tahun</h6>
-              <div class="tombol-chat">
-                <a href="#">
-                  <button class="buat-karya btn btn-secondary tombol mt-lg-0 mt-3 me-lg-2">
-                    Chat dokter
-                  </button>
-                </a>
-              </div>
-
-              <div class="tentang-dokter kotak-putih">
-                <h1>Detail dokter</h1>
-                <div class="row g-2" style="font-size: 14px;">
-                  <div class="col-4">
-                    Nomor Str
-                  </div>
-                  <div class="col-1">
-                    :
-                  </div>
-                  <div class="col-7">
-                    327373793793
-                  </div>
-                  <div class="col-4">
-                    Alumnus
-                  </div>
-                  <div class="col-1">
-                    :
-                  </div>
-                  <div class="col-7">
-                    Universitas Indonesia
-                  </div>
-                  <div class="col-4">
-                    Spesialis
-                  </div>
-                  <div class="col-1">
-                    :
-                  </div>
-                  <div class="col-7">
-                    Kandungan
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <!--hero-->
+    <!-- <div id="carouselExampleCaptions" class="carousel" data-bs-ride="false"> -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../asset/img/artikel (4).png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Mari Hidup Sehat Bersama Kami </h5>
+          <p>"Jangan menunggu sakit, Budayakan hidup sehat untuk mencegah segala penyakit."</p>
         </div>
-        <div class="col-lg-4 col-12 card mt-5">
-          <div class="buat-janji">
-            <h1>Atur Jadwal Konsultasi</h1>
-            <h1 class="title">Tanggal</h1>
-            <div class="tanggal">
-              <input type="text" id="datepicker" placeholder="masukkan tanggal">
+      </div>
+    </div>
+    <!-- </div> -->
+    <!--feture 1-->
+
+    <!-- Kategori -->
+    <div class="container kategori text-center">
+      <h1>Pilih berdasarkan</h1>
+      <a class="btn btn-success"  href="#" role="">DOKTER UMUM</a>
+      <a class="btn btn-success" href="#" role="button">DOKTER GIGI</a>
+      <a class="btn btn-success" href="#" role="button">DOKTER KANDUNGAN</a>
+      <a class="btn btn-success" href="#" role="button">DOKTER ANAK</a>
+      <a class="btn btn-success" href="#" role="button">DOKTER LANSIA</a>
+    </div>
+    <!-- Kategori -->
+    <div class="katagori-dokter">
+      <div class="row ">
+        <h1>ALL DOKTER</h1>
+        <div class="container px-0 py-5" id="featured-">
+          <div class="row g-0 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col-lg-2 border shadow p-3 mx-3 text-center bg-body rounded  p-3">
+              <div class="feature-icon ">
+                <img src="../asset/img/dr-cahyani.jpg" alt="dokter" width="100px" height="100px">
+              </div>
+              <h2>dr. Cahyani Kusuma Dewi</h2>
+              <h3>Dokter Spesialis Anak</h3>
+              <p><i class="bi bi-hospital"></i> Klinik Puri Medika Kartika Chandra di
+                Pancoran, Jakarta Selatan, dan Klinik Pola di Pasar Minggu, Jakarta Selatan</p>
+              <a href="#" class="btn btn-info">Detail</a>
             </div>
-            <h1 class="title">Waktu</h1>
-            <div class="waktu">
-              <button class="btn btn-outline-secondary" type="button" id="button-addon1">15:00</button>
-              <button class="btn btn-outline-secondary" type="button" id="button-addon1">16:30</button>
-              <button class="btn btn-outline-secondary" type="button" id="button-addon1">18:30</button>
+            <div class="col-lg-2 border shadow p-3 mx-3 text-center bg-body rounded  my-2 p-3">
+              <div class="feature-icon ">
+                <img src="../asset/img/dr.raden.jpg" alt="dokter" width="100px" height="100px">
+              </div>
+              <h2>dr. Raden D. S. S. Yuwono, Sp.A</h2>
+              <h3>Dokter Spesialis Anak</h3>
+              <p><i class="bi bi-hospital"></i> Rumah Sakit Ciputra Citra Garden
+                City Kalideres, Jakarta Barat.</p>
+              <a href="#" class="btn btn-info">Detail</a>
+            </div>
+            <div class="col-lg-2 border  shadow p-3 mx-3 text-center bg-body rounded  p-3">
+              <div class="feature-icon ">
+                <img src="../asset/img/dr-achmad.jpg" alt="dokter" width="100px" height="100px">
+              </div>
+              <h2>dr. Achmad Mediana, Sp.OG</h2>
+              <h3>Dokter Spesialis Kandungan</h3>
+              <p><i class="bi bi-hospital"></i> Medical Care di Pasar Minggu, Jakarta Selatan
+              </p>
+              <a href="#" class="btn btn-info">Detail</a>
+            </div> 
+            <div class="col-lg-2 border shadow p-3 mx-3 text-center bg-body rounded  p-3">
+              <div class="feature-icon ">
+                <img src="../asset/img/dr-cahyani.jpg" alt="dokter" width="100px" height="100px">
+              </div>
+              <h2>dr. Cahyani Kusuma Dewi</h2>
+              <h3>Dokter Spesialis Anak</h3>
+              <p><img src="../asset/img/hospital.svg" alt="hospital"></i> Klinik Puri Medika Kartika Chandra di
+                Pancoran, Jakarta Selatan, dan Klinik Pola di Pasar Minggu, Jakarta Selatan</p>
+              <a href="#" class="btn btn-info">Detail</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
+</div>
 
+
+  </main>
   <footer>
+
     <div class="container footer-1">
       <div class="row">
         <div class="col-md-4 pt-3 text-center">
           <h3 class="pb-3">Tentang Kami</h3>
-          <p class="tentang-kami">FHI (Family healthing Information) adalah website yang bertujuan untuk memberikan
-            banyak
-            informasi tentang kesehatan yang dibutuhkan oleh seluruh masyarakat di Indonesia dan informasi yang kami
-            sajikan juga mudah untuk di pahami oleh orang awam.</p>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto ea quo
+            enim alias omnis consequatur nobis consectetur sunt incidunt non laborum perferendis perspiciatis facilis,
+            reprehenderit, dignissimos a at tempora?</p>
         </div>
-        <div class="col-md-2 pt-lg-3 pt-5 text-center ">
-          <h3 class="pb-3">Contact me</h3>
-          <p class="contact">Gedung FHI, Jl. jembatan biru No.10, Bogor Pusat 15670</p>
-          <p class="contact pb-2"><span class="fw-bolder">Phone</span>: 085894440647 <span><span
-                class="fw-bolder">Email</span>: FHI@family.com</span>
-          </p>
-          <a class="sosmed" href=""><img src="../asset/img/twitter.png" class="img-fluid" alt="twitter"></a>
-          <a class="sosmed" href=""><img src="../asset/img/instagram.png" class="img-fluid" alt="instagram"></a>
-          <a class="sosmed" href=""><img src="../asset/img/facebook.png" class="img-fluid" alt="facebook"></a>
-        </div>
-        <div class="col-md-3 pt-lg-3 pt-5 text-center ">
+        <div class="col-md-4 pt-3 text-center ">
           <h3 class="pb-3">Credit By</h3>
-          <p class="credit">halodoc.com</p>
+          <p class="credit">Lorem ipsum.com</p>
           <p class="credit">Lorem ipsum.com</p>
           <p class="credit">Lorem ipsum.com</p>
           <p class="credit">Lorem ipsum.com</p>
         </div>
-        <div class="col-md-3 pt-lg-3 pt-5 text-center">
+        <div class="col-md-4 pt-3 text-center">
           <h3 class="pb-3">Didukung Oleh</h3>
           <img src="../asset/img/dicoding.png" alt="logo dicoding" class="Didukung">
           <img src="../asset/img/Kampus Merdeka.png" alt="logo dicoding" class="Didukung">
@@ -222,12 +205,9 @@
     </div>
 
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
   </script>
 </body>
-
 </html>
-
 <script src="../asset/script/index.js"></script>
