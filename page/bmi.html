@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TestBmi-FHI</title>
+  <!--style-->
+  <link href="../asset/style/index.css" rel="stylesheet">
+  <link href="../asset/style/responsive.css" rel="stylesheet">
+  <link href="../asset/style/bmi.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!--font-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Kanit&family=Nerko+One&family=Righteous&family=Secular+One&display=swap"
+    rel="stylesheet">
+  <!--icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../asset/img/logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-center mb-2">
+        <span>Family Healting Information </span>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="../page/login.html"><img src="../asset/img/person.svg" alt="login" height="40" width="40"></i></a>
+          </li>
+        </ul>
+        <b id="hamburger" onclick="showMenu();">&#8801;</b>
+      </a>
+    </div>
+  </nav>
+  <div class="nav" id="menu_vertikal">
+    <span>
+      <li class="nav-item dropdown "></li>
+    </span>
+    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <span>LAYANAN KESEHATAN</span>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">TES KESEHATAN LANSIA</a></li>
+      <li><a class="dropdown-item" href="#">TES KESEHATAN MENTAL</a></li>
+      <li><a class="dropdown-item" href="#">TES IBM</a></li>
+    </ul>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        ARTIKEL
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">KESEHATAN ANAK</a></li>
+        <li><a class="dropdown-item" href="#">KESEHATAN BAYI</a></li>
+        <li><a class="dropdown-item" href="#">KESEHATAN LANSIA</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">CARI DOKTER</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">CONTACT ME</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link" href="about.html">ABOUT ME </a>
+    </li>
+    <li class="nav-itemm ">
+      <a class="nav-link" href="/page/login.html"><span>LOGIN</span> </a>
+    </li>
+    <form class="d-flex " role="search">
+      <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-success ms-1" type="submit"><img src="../asset/img/search.svg" alt="search" height="40"
+          width="40"></button>
+    </form>
+  </div>
+  <main>
+    <!--hero-->
+    <!--fitur bmi-->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <h2>Kalkulator BMI</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p><b>Body Mass Index (BMI)</b> atau <b>Indeks Massa Tubuh (IMT)</b> adalah angka yang menjadi penilaian standar untuk menentukan apakah berat badan Anda tergolong <b>normal</b>, <b>kurang</b>, <b>berlebih</b>, atau <b>obesitas</b>.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-sm-3 mb-3">
+          <div class="card bg-info">
+            <div class="card-body">
+              <h1 class="card-title"><18.5</h1>
+              <p class="card-text text-center">Underweight</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-3 text-center">
+          <div class="card bg-success">
+            <div class="card-body">
+              <h1 class="card-title">18.5 - 25.0</h1>
+              <p class="card-text text-center">Normal</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-3 text-center">
+          <div class="card bg-warning">
+            <div class="card-body">
+              <h1 class="card-title">25.1 - 27.0</h1>
+              <p class="card-text text-center">Overweight</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-3 text-center">
+          <div class="card bg-danger">
+            <div class="card-body">
+              <h1 class="card-title">>27</h1>
+              <p class="card-text text-center">Obesitas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row mt-3">
+        <div class="col-md-4 mb-3">
+          <form id="bmiForm" name="bmiForm" onsubmit="return false">
+            <div class="mb-3">
+              <label for="jenis-kelamin" class="form-label">Masukkan Jenis Kelamin :</label>
+              <select class="form-select" id="jenis-kelamin">
+                <option selected>Pilih jenis kelamin</option>
+                <option value="pria">Pria</option>
+                <option value="wanita">Wanita</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="tinggi-badan" class="form-label">Masukkan Tinggi badan(Cm) :</label>
+              <input type="text" class="form-control" id="tinggi-badan" placeholder="Example : 175">
+            </div>
+            <div class="mb-3">
+              <label for="tinggi-badan" class="form-label">Masukkan Berat badan(Kg) :</label>
+              <input type="number" class="form-control" id="berat-badan" placeholder="Example : 75">
+            </div>
+            <input type="submit" value="Hitung" class="btn btn-secondary" onclick="bmi();">
+          </form>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div id="tbbb" class="col">
+
+            </div>
+          </div>
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-4">
+              <div id="display-content-bmi" class="mb-4 text-center">
+                
+              </div>
+            </div>
+            <div id="display-content-bbi-none" class="col-md-4">
+              <div id="display-content-bbi" class="mb-4 text-center">
+                
+              </div>
+            </div>
+          </div>
+          <div id="display-content-aboutBmi" class="row">
+            
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-1">
+      <div class="row">
+        <div class="col-md-4 pt-3 text-center">
+          <h3 class="pb-3">Tentang Kami</h3>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto ea quo
+            enim alias omnis consequatur nobis consectetur sunt incidunt non laborum perferendis perspiciatis facilis,
+            reprehenderit, dignissimos a at tempora?</p>
+        </div>
+        <div class="col-md-4 pt-3 text-center ">
+          <h3 class="pb-3">Credit By</h3>
+          <p class="credit">Lorem ipsum.com</p>
+          <p class="credit">Lorem ipsum.com</p>
+          <p class="credit">Lorem ipsum.com</p>
+          <p class="credit">Lorem ipsum.com</p>
+        </div>
+        <div class="col-md-4 pt-3 text-center">
+          <h3 class="pb-3">Didukung Oleh</h3>
+          <img src="../asset/img/dicoding.png" alt="logo dicoding" class="Didukung">
+          <img src="../asset/img/Kampus Merdeka.png" alt="logo dicoding" class="Didukung">
+        </div>
+      </div>
+    </div>
+
+    <div class="shadow-content footer-2">
+      <div class="container">
+        <div class="row footer2">
+          <div class="col-md-4 text-center ">
+            <img src="../asset/img/logo.png" alt="Logo" width="60" height="60">
+            <span class="fhi">Family Healting Information</span>
+          </div>
+          <div class="col-md-5 pt-2 ">
+            <p class="lead text-center">Mari Hidup Sehat Bersama Kami </p>
+          </div>
+          <div class="col-md-3 pt-2 text-center ">
+            <a class="sosmed" href=""><img src="../asset/img/twitter.png" class="img-fluid" alt="twitter"></a>
+            <a class="sosmed" href=""><img src="../asset/img/instagram.png" class="img-fluid" alt="instagram"></a>
+            <a class="sosmed" href=""><img src="../asset/img/facebook.png" class="img-fluid" alt="facebook"></a>
+          </div>
+          <div class="backTop">
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../asset/img/backtoup.svg" alt=""></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center">
+      ©2022 Family Healting Information
+    </div>
+
+  </footer>
+</body>
+
+</html>
+  <script src="../asset/script/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
