@@ -26,9 +26,10 @@ https://github.com/ainnnw/Capstone-Project-FHI
 [Proposal_CapstonProjekPlan.docx](https://github.com/ainnnw/Capstone-Project-FHI/files/10097610/Proposal_CapstonProjekPlan.docx)
   
 ## Slide Presentation Link: </br>
-https://drive.google.com/file/d/17axVau50shI2sPSwSYOcZ2CFoCKmiJ-7/view?usp=share_link
+https://drive.google.com/file/d/1xxmrtYOAvHnm6qhD6Ud4v2XYBssftFZ/view?usp=share_link 
 
 ## Video Presentation Link: </br>
+https://youtu.be/5sSu3QKTH7Q 
 
 # About FoodIntake
 **FHI (Family healthing Information)** adalah website yang bertujuan untuk memberikan banyak informasi tentang kesehatan yang dibutuhkan oleh seluruh masyarakat di Indonesia dan informasi yang kami sajikan juga mudah untuk di pahami oleh orang awam. Nantinya terdapat juga fitur-fitur yang dapat dimanfaatkan oleh pengguna untuk terus dapat menjaga kesehatannya, Kami memilih tema ini karena masih banyak masyarakat yang kurang peduli dan teredukasi dalam menjaga kesehatannya.
@@ -42,25 +43,20 @@ Berikut Resources yang dibutuhkan dalam pengembangan Website FHI (Family healthi
       <li>HTML</li>
       <li>CSS</li>
       <li>Javascript</li>
+      <li>Php</li>
     </ul>
   <li>Framework :</li>
     <ul>
       <li>Bootstrap</li>
-      <li></li>
     </ul>
-  <li>API :</li>
+  <li>Database :</li>
     <ul>
-      <li></li>
-      <li></li>
+      <li>MySQL</li>
     </ul>
   <li>Library :</li>
     <ul>
       <li>Node Package Manager</li>
       <li>Eslint : airbnb</li>
-    </ul>
-  <li>Deploy :</li>
-    <ul>
-      <li></li>
     </ul>
   <li>Tools :</li>
     <ul>
