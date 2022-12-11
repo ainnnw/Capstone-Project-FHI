@@ -1,0 +1,181 @@
+#profil-dokter{
+	display: flex;
+  margin: 10px;
+}
+
+.card-text h6{
+  font-size: 16px;
+}
+#spesailis-dokter{
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#profil-dokter > .profil-dokter-img{
+	margin-right: 15px;
+	float: left;
+}
+
+.detail-dokter {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.tombol-chat {
+  text-align: end;
+  padding: 10px;
+}
+
+.detail-dokter h6 {
+  margin-top: 12px;
+}
+
+.tentang-dokter, .buat-janji {
+  padding: 10px;
+}
+
+.profil-dokter-img{
+  width: 10px;
+  height: 10px;
+}
+.container.konsultasi {
+  font-size: 12px;
+  border: 1px solid rgb(5, 5, 5);
+  background-color: rgb(255, 255, 255) ;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius:5px;
+  width: 100%;
+  text-align: start;
+
+
+}
+
+.kotak-putih{
+  border: 1px solid rgb(225,225,225);
+  background-color: white ;
+  box-shadow: 0.1rem 0.1rem 0.2rem rgb(0 0 0 / 10%);
+  margin-bottom: 15px !important;
+  border-radius: 4px;
+  left:0;
+}
+
+.col-lg-12.tentang-dokter{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+}
+.bi {
+  font-size: 27px;
+}
+#pendidikan{
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 7%;
+}
+#organisasi{
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 7%;
+}
+#layanan{
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 7%;
+}
+
+#namaRS{
+  font-size: 18px;
+  font-weight: 400;
+}
+#alamatRS{
+  font-size: 18px;
+  font-weight: 400;
+}
+#hari-praktek{
+  font-size: 18px;
+  font-weight: 400;
+}
+#jam-praktek{
+  font-size: 18px;
+  font-weight: 400;
+}
+#hargaDokter{
+  font-size: 18px;
+  font-weight: 400;
+}
+#telponDokter{
+  font-size: 18px;
+  font-weight: 400;
+}
+.layanan li{
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 7%;
+}
+.organisasi li{
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 7%;
+}
+.border{
+  width: 100%;
+}
+#nama-pengulas{
+  font-size: 15px;
+  margin-left: 5px;
+}
+#tanggal-ulasan{
+  margin-top: -5px;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 10px;
+}
+#ulasan{
+  font-size: 15px;
+  margin-top: -5px;
+  font-weight: 400;
+  margin-left: 20%;
+  text-align: justify;
+}
+textarea{
+  width: 100%;
+  margin-left: 0;
+}
+textarea:hover{
+  box-shadow: rgba(0, 198, 168, 0.992) 0px 3px 8px;
+}
+#namapasien{
+  font-size: 15px;
+  margin-left: 5px;
+  text-align: end;
+}
+#tanggal-konsul{
+  margin-top: -5px;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 10px;
+  text-align: start;
+}
+#deskripsi-konsul{
+  font-size: 15px;
+  margin-top: -15px;
+  font-weight: 400;
+  margin-left: 20%;
+  right: 0;
+}
+#nama-dokter-kosultasi{
+  font-size: 15px;
+  margin-left: 5px;
+  text-align: start;
+}
+#balesan-dokter{
+  font-size: 15px;
+  margin-left: 10%;
+  text-align:justify;
+}
+.background{
+background-color:  rgba(0, 198, 168, 0.36);
+width: 80%;
+border-radius: 3%;
+padding:5px;
+padding-right: 10px;
+}

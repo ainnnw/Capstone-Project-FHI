@@ -1,0 +1,75 @@
+.kategori{
+  /* text-align: center; */
+  margin-bottom: 100px;
+  margin-top: 50px;
+
+}
+
+.kategori h1{
+  border-bottom: 1px solid rgb(215, 215, 215);
+  margin-bottom: 20px;
+  text-align: start;
+  font-size: 15;
+}
+.flex-container .artikel{
+  display: grid;
+
+
+}
+
+.kategori a {
+  font-size: 25px;
+  color: rgba(0, 198, 168, 0.992);
+  background-color: white;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.carousel-caption h5,p{
+  color: black;
+  font-size: 20px;
+}
+
+.artikel h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-artikel {
+  width: 17rem;
+}
+
+
+
+
+.card-text {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+  border: 0;
+  background-color: azure;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.tanggal-terbit {
+  font-size: 14px;
+}
+
+.card-body a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px;
+  background-color: azure;
+  border: 0;
+}
+
+@media screen and (max-width: 499px) {
+  .carousel-item {
+    height: 10rem;
+  }
+}
+

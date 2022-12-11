@@ -1,0 +1,10 @@
+.row{
+	padding: 0;
+	border:0;
+}
+.col h2{
+	font-family: 'Fredoka One', cursive;
+    text-align: center;
+	font-size: 30;
+	padding-bottom: 20px;
+}
